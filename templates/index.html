@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='jquery/jquery-3.7.1.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/ajax.js') }}"></script>
+
+</head>
+
+<body>
+
+    <div class="conteudo">
+        <div class="top azul"></div>
+        <div class="banner">
+            <img src='static/img/banner.jpg' />
+        </div>
+        <div class="principal">
+            <div class="colunalateral verde">
+                <h1>CBTROLL</h1>
+                <div class="logon">
+                    <input id="invocador" type="text" placeholder="Nome"><br><input type="text" value="#br1"
+                        id="tagname" placeholder="#br1"><br>
+                    <p><button id="btn1">ok</button></p>
+
+                    <div id="retorno">
+                        <div id="rank">
+
+
+                            <div id="ico" class="rank">
+
+
+                            </div>
+                            <div id="wing" class="rank"></div>
+                            <div id="liga">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="centro vermelho">
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
